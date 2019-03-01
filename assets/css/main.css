@@ -210,7 +210,7 @@ nav a:not(:first-child):not(:last-child) {
 .fa-search {
     display: inline-block;
     position: relative;
-    top: -4px;
+    top: 0px;
     left: 20px;
     font-size: 12px;
     color: white;
@@ -226,6 +226,25 @@ nav a:not(:first-child):not(:last-child) {
     width: 106px;
     box-shadow: inset 5px 5px 20px -10px rgba(0, 0, 0, 1);
     border: 1px solid rgba(0, 0, 0, .25);
+    color:#ffff;
+    padding-left: 20px;
+}
+
+#search-btn:focus{
+    padding-left: 20px;
+    display: inline-block;
+    height: 20px;
+    background-image:
+        linear-gradient(#8a8a8a, #707070 50%, #5e5e5e 50%, #787878);
+    border-radius: 10px;
+    width: 106px;
+    box-shadow: inset 5px 5px 20px -10px rgba(0, 0, 0, 1);
+    border: 1px solid rgba(0, 0, 0, .25);
+    color:#ffff;
+}
+
+#search-btn::placeholder{
+    color: #ffff;
 }
 
 /* hero section */
@@ -340,4 +359,7 @@ footer ul li a {
 
 .blue {
     color: #08c;
+}
+
+#search{
 }
