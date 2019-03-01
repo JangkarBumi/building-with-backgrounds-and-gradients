@@ -136,3 +136,87 @@ table {
 a {
     text-decoration: none;
 }
+
+
+input[type="button"] {
+    border: none;
+    padding: 0;
+    background: none;
+}
+
+/*
+p {
+    font-family: 'Alegreya Sans', sans-serif;
+    font-family: 'Lato', sans-serif;
+}
+*/
+
+
+/* Header */
+
+
+body {
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+#container {
+    margin: 0 auto;
+    padding-top: 15px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    width: 74%;
+    height: 35px;
+    font-size: 16px;
+    background-image:
+        linear-gradient(#8a8a8a, #707070 50%, #5e5e5e 50%, #787878);
+    border-radius: 5px;
+}
+
+
+nav a {
+    display: inline-block;
+    color: white;
+    padding: 7px 32px 7px 32px;
+}
+
+nav a:hover {
+    background-image:
+        linear-gradient(#5f5f5f, rgb(87, 82, 82) 50%, #3a3838 50%, #5f5f5f5f);
+}
+
+
+nav a:not(:first-child):not(:last-child) {
+    margin-top: 3px;
+}
+
+.fa-apple {
+    font-size: 20px;
+    color: white;
+}
+
+
+
+.fa-search {
+    display: inline-block;
+    position: relative;
+    top: -4px;
+    left: 20px;
+    font-size: 12px;
+    color: white;
+}
+
+
+#search-btn {
+    display: inline-block;
+    height: 20px;
+    background-image:
+        linear-gradient(#8a8a8a, #707070 50%, #5e5e5e 50%, #787878);
+    border-radius: 10px;
+    width: 106px;
+    box-shadow: inset 5px 5px 20px -10px rgba(0, 0, 0, 1);
+    border: 1px solid rgba(0, 0, 0, .25);
+}
