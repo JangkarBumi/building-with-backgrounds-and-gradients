@@ -165,8 +165,8 @@ body {
 
     background-image: url("../images/your_verse_hero_2x.jpg");
     background-size: cover;
-    height: 900px;
-    background-position: 50% 120%;
+    height: 500px;
+    background-position: 50% 100%;
 
 }
 
@@ -228,12 +228,13 @@ nav a:not(:first-child):not(:last-child) {
 }
 
 /* hero section */
-#hero #promotion {
+#promotion {
     display: flex;
     width: 100%;
 }
 
 .promo-part {
+    width: 25%;
     height: 200px;
 }
 
@@ -287,4 +288,43 @@ footer ul li a {
 #us-logo {
     height: 16px;
     width: 16px;
+}
+
+/* hero */
+#hero {
+    height: 100%;
+    text-align: center;
+    position: relative;
+    margin: 0 auto;
+    margin-bottom: -35px;
+}
+
+#hero-title {
+    color: #ffff;
+    font-size: 70px;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 100;
+    letter-spacing: -1px;
+}
+
+.hero-desc {
+    padding-top: 10px;
+    color: #ffff;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 100;
+    font-size: 38px;
+    letter-spacing: -1px;
+}
+
+#hero-last {
+    padding-top: 10px;
+    color: #ffff;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 100;
+    font-size: 28px;
+    letter-spacing: -1px;
+}
+
+.blue {
+    color: #08c;
 }
